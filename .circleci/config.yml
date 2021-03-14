@@ -36,7 +36,7 @@ executors:
 
 jobs:
   build-with-docker-u20n11:
-    executor: docker-executor-u20n11
+    executor: docker-executor-u20n10
     steps:
       - build
     environment:
@@ -45,5 +45,5 @@ jobs:
 workflows:
   build-with-docker:
     jobs:
-      - build-with-docker-u20n11
+      - build-with-docker-u20n10
 
