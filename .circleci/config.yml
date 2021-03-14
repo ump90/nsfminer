@@ -32,7 +32,7 @@ commands:
 executors:
  docker-executor-u20n10:
    docker:
-     - image: nvidia/cuda:10.0-devel-ubuntu20.04
+     - image: nvidia/cuda:10.0-base-ubuntu18.04
 
 jobs:
   build-with-docker-u20n10:
