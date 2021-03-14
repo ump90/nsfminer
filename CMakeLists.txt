@@ -10,7 +10,7 @@ if(UNIX)
 set(CMAKE_CXX_FLAGS "-Wall -Wextra")
 set(CMAKE_CXX_FLAGS_DEBUG "-g")
 set(CMAKE_CXX_FLAGS_RELEASE "-O2")
-set(CMAKE_EXE_LINKER_FLAGS "-static -pthread -lrt -ldl")
+set(CMAKE_EXE_LINKER_FLAGS "-static")
 endif()
 
 cmake_minimum_required(VERSION 3.5)
